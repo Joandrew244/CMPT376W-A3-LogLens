@@ -19,9 +19,11 @@ You do not need to know this repository's structure or commands. For full setup 
 - **Leaves your file unchanged.** It reads the CSV but does not repair, rewrite, or modify it.
 - **Does not diagnose problems.** It counts records by level; it does not explain why a system failed.
 
-## Requirements and things
+## Requirements
 
-You need Python. Most computers already have it, and version 3.6 or later should be good enough. It works on Windows, Mac, and Linux. Other than that, there is not much to know.
+- **Python 3.10 or newer**
+- **No extra packages.** Loglens uses only the Python standard library, so you do not need `pip install`.
+- **A copy of this repository** on your computer (see [Get the files](docs/INSTALL.md#1-get-the-files))
 
 ## Get started
 
