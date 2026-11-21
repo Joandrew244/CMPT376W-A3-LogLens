@@ -22,10 +22,10 @@ You do not need to know this repository's structure or commands. For full setup 
 ## Requirements
 
 - **Python 3.10 or newer**
-- **No extra packages.** Loglens uses only the Python standard library, so you do not need `pip install`.
+- Loglens uses only the Python standard library, so you do not need `pip install`.
 - **A copy of this repository** on your computer (see [Get the files](docs/INSTALL.md#1-get-the-files))
 
-## Quick Start
+## Quick start
 
 1. Open terminal in the **repository root**: the folder that contains `loglens.py`.
 2. Run LogLens on the included sample file:
@@ -36,7 +36,7 @@ You do not need to know this repository's structure or commands. For full setup 
    
 3. Check the output. You should see:
 
-   ``` text
+   ```text
    Records matching ERROR: 2
    ```
 
@@ -78,15 +78,15 @@ The included sample file, [`data/sample_logs.csv`](data/sample_logs.csv), starts
 ```csv
 timestamp,level,message
 2026-01-03T09:00:00Z,INFO,Startup complete
-2026-01-03T09:05:00Z,WARN, Memory usage high
+2026-01-03T09:05:00Z,WARN,Memory usage high
 2026-01-03T09:10:00Z,ERROR,Connection lost
 ```
 
-## Questions
+## Getting help
 
 1. Check [Troubleshooting](docs/INSTALL.md#troubleshooting) in the installation guide.
-2. If the problem continues, open the issue in this repository. Include:
-   - the exact command u ran
+2. If the problem continues, open an issue in this repository. Include:
+   - the exact command you ran
    - the full error message
    - your Python version (run `python --version`)
   
