@@ -23,15 +23,15 @@ The number shown should be 3.10 higher.
 > [!NOTE]
 > LogLens runs entirely on your computer. It does not need a network connection and does not upload your data.
 
-## Getting the program
+## 1. Get the files
 
-Get LogLens from the GitHub website. Look for the green button and download a ZIP. Then extract it. Make sure you are in the right place in the terminal, because you will need that later. Once everything is done, you can install it.
+1. Open this repo page on GitHub.
+2. Select **Code**, then **Download ZIP**
+3. Extract (unzip) the downloaded file.
+4. Open the extracted folder and find the folder that directly contains `loglens.py`.
+This is the **repo root**. It also contains `README.md` and the `data` and `docs` folders.
 
-Run this command:
-
-pip install loglens
-
-Then move on to the next step.
+You do not need to install anything else. LogLens runs directly as `loglens.py`.
 
 ## Running a check
 
