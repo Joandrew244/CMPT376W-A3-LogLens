@@ -4,11 +4,24 @@ This guide walks you through downloading LogLens, running it on the included sam
 
 For an overview of what LogLens does, see the [README](../README.md).
 
-## Things you need
+## Before you begin
 
-* Python 3.8 or newer, plus pip.
-* A network connection so LogLens can upload your files for checking.
-* A file containing logs from your computer or a work system.
+You need:
+
+- **Python 3.10 or newer.** No other package are required, and you do not need `pip`.
+- **A terminal.**
+- **For step 4 only:** your own CSV log file with the collumns `timestamp`, `level`, and `message`. See [Input format](../README.md#input-format) in the README.
+
+To check your Python version, run:
+
+```bash
+python --version
+```
+
+The number shown should be 3.10 higher.
+
+> [!NOTE]
+> LogLens runs entirely on your computer. It does not need a network connection and does not upload your data.
 
 ## Getting the program
 
