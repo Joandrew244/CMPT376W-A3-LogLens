@@ -25,17 +25,25 @@ You do not need to know this repository's structure or commands. For full setup 
 - **No extra packages.** Loglens uses only the Python standard library, so you do not need `pip install`.
 - **A copy of this repository** on your computer (see [Get the files](docs/INSTALL.md#1-get-the-files))
 
-## Get started
+## Quick Start
 
-First, get the project files from GitHub. Then install the program using `pip install log-lens` and run it by typing `loglens`. If you can't make it work, see docs/INSTALL.md. You probably won't need those instructions.
+1. Open terminal in the **repository root**: the folder that contains `loglens.py`.
+2. Run LogLens on the included sample file:
 
-## Using the program
+   ```bash
+   python loglens.py --file data/sample_logs.csv --level ERROR
+   ```
+   
+3. Check the output. You should see:
 
-Run the following command after you have found the correct folder:
+   ``` text
+   Records matching ERROR: 2
+   ```
 
-`loglens --input mylog.csv --severity error`
+> [!NOTE]
+> On some computers, the Python command is `python3` or `py` instead of `python`.
 
-The software scans your log, fixes mistakes, and shows you what went wrong. You will see a number once it is finished. You can also run it on real production files without worrying about any side effects.
+For step-by-step instructions, including how to download the files, see the [installation and usage guide](docs/INSTALL.md).
 
 ## Input format
 
