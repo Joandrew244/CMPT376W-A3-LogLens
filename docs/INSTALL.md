@@ -1,6 +1,8 @@
-# How to install LogLens and use it
+## Install and run LogLens
 
-These instructions are for everyone. They should work the same way on every machine, so read through them and do what they say.
+This guide walks you through downloading LogLens, running it on the included sample file, and the running it on your own CSV file. It assumes you understand basic CSV files and have used a terminal before.
+
+For an overview of what LogLens does, see the [README](../README.md).
 
 ## Things you need
 
