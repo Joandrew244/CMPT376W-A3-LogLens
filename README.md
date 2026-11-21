@@ -12,6 +12,13 @@ This guide is for computing students and new technical interns who:
 
 You do not need to know this repository's structure or commands. For full setup steps, see the [installation and usage guide](docs/INSTALL.md).
 
+## What LogLens does
+
+- **Counts records.** It reads a CSV log file and prints how many records match one log level, or how many records there are in total.
+- **Runs locally.** It does not upload, transmit, or store your data outside your computer.
+- **Leaves your file unchanged.** It reads the CSV but does not repair, rewrite, or modify it.
+- **Does not diagnose problems.** It counts records by level; it does not explain why a system failed.
+
 ## Requirements and things
 
 You need Python. Most computers already have it, and version 3.6 or later should be good enough. It works on Windows, Mac, and Linux. Other than that, there is not much to know.
