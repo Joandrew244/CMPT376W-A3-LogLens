@@ -65,7 +65,21 @@ Records matching ALL: 6
 
 ## Input format
 
-The input should be a CSV file. Log files tend to have fields describing the time and what happened, but LogLens is flexible and will work with whatever columns your monitoring system uses. A small example is included somewhere in this repository.
+Your CSV file needs a header row with these three column names, spelled exactly as shown:
+
+| Column | Contains |
+| --- | --- |
+| `timestamp` | When the event happened |
+| `level` | The log level: `INFO`, `WARN`, or `ERROR` (uppercase) |
+| `message` | A short description of the event |
+
+The included sample file, [`data/sample_logs.csv`](data/sample_logs.csv), starts like this:
+
+```csv
+timestamp,level,message
+2026-01-03T09:00:00Z,INFO,Startup complete
+2026-01-03T09:05:00Z,WARN, Memory usage high
+2026-01-03T09:10:00Z,ERROR,Connection lost
 
 ## Questions
 
