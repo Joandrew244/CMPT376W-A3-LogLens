@@ -80,7 +80,15 @@ timestamp,level,message
 2026-01-03T09:00:00Z,INFO,Startup complete
 2026-01-03T09:05:00Z,WARN, Memory usage high
 2026-01-03T09:10:00Z,ERROR,Connection lost
+```
 
 ## Questions
 
-If something doesn't work, just contact the developers or create an issue. Make sure you describe the problem so somebody can help. This is a basic tool, so the instructions should be pretty obvious.
+1. Check [Troubleshooting](docs/INSTALL.md#troubleshooting) in the installation guide.
+2. If the problem continues, open the issue in this repository. Include:
+   - the exact command u ran
+   - the full error message
+   - your Python version (run `python --version`)
+  
+> [!WARNING]
+> Do not post private or sensitive log data publicly. Describe the problem and, if needed, share a small sanitized example: a few rows with any private details removed or replaced.
