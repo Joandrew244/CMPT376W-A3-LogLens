@@ -45,6 +45,24 @@ You do not need to know this repository's structure or commands. For full setup 
 
 For step-by-step instructions, including how to download the files, see the [installation and usage guide](docs/INSTALL.md).
 
+## Command options
+
+| Option | Required? | What it does |
+| --- | --- | --- |
+| `--file PATH` | Yes | Path to the CSV log file to read. |
+| `--level LEVEL` | No | Counts only records with this level: `INFO`, `WARN`, or `ERROR` (uppercase). If omitted, LogLens counts all records. |
+| `--help` | No | Lists the valid options. |
+
+To count every record in the sample file, leave out `--level`:
+
+```bash
+python loglens.py --file data/sample_logs.csv
+```
+
+```text
+Records matching ALL: 6
+```
+
 ## Input format
 
 The input should be a CSV file. Log files tend to have fields describing the time and what happened, but LogLens is flexible and will work with whatever columns your monitoring system uses. A small example is included somewhere in this repository.
