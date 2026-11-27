@@ -22,7 +22,7 @@ You do not need to know this repository's structure or commands. For full setup 
 ## Requirements
 
 - **Python 3.10 or newer**
-- Loglens uses only the Python standard library, so you do not need `pip install`.
+- **No extra packages.** Loglens uses only the Python standard library, so you do not need `pip install`.
 - **A copy of this repository** on your computer (see [Get the files](docs/INSTALL.md#1-get-the-files))
 
 ## Quick start
