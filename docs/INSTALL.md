@@ -25,11 +25,11 @@ The number shown should be 3.10 or higher.
 
 ## 1. Get the files
 
-1. Open this repo page on GitHub.
+1. Open this repository's page on GitHub.
 2. Select **Code**, then **Download ZIP**.
 3. Extract (unzip) the downloaded file.
 4. Open the extracted folder and find the folder that directly contains `loglens.py`.
-   This is the **repo root**. It also contains `README.md` and the `data` and `docs` folders.
+   This is the **repository root**. It also contains `README.md` and the `data` and `docs` folders.
 
 You do not need to install anything else. LogLens runs directly as `loglens.py`.
 
